@@ -3,25 +3,14 @@
   "version": "0.3.0",
   "description": "Dead simple javascript validation",
   "main": "index.js",
-  "engines": {
-    "node": "^8.17.0"
-  },
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yktv4/yeval.git"
   },
   "keywords": [
     "javascript",
     "validation"
   ],
-  "author": "Igor Yakutovich",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yktv4/yeval/issues"
-  },
   "dependencies": {
     "lodash": "^4.17.4"
   },
@@ -29,6 +18,5 @@
     "bluebird": "^3.5.0",
     "mocha": "^3.2.0",
     "should": "^11.2.0"
-  },
-  "homepage": "https://github.com/yktv4/yeval#readme"
+  }
 }
